@@ -2,7 +2,7 @@
 using System.Reactive.Disposables;
 using System.Threading.Tasks;
 
-namespace ActimaUAT.Common
+namespace DevsTeam.Framework.Core.Periodic
 {
     // ReSharper disable once ClassNeverInstantiated.Global
     public class PeriodicContainer : IDisposable

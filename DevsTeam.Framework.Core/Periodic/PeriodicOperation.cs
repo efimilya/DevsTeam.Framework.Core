@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using DevsTeam.Framework.Core.Async;
 using ReactiveUI;
 
-namespace ActimaUAT.Common
+namespace DevsTeam.Framework.Core.Periodic
 {
     // ReSharper disable once ClassNeverInstantiated.Global
     public class PeriodicOperation
