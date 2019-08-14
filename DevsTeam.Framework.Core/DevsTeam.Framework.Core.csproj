@@ -2,13 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>DevsTeam.Xamarin.Core</PackageId>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Ilya Efimov</Authors>
+    <Description>Common MVVM components to help with Xamarin Forms development</Description>
+    <PackageLicenseUrl>https://github.com/efimilya/DevsTeam.Framework.Core/blob/master/LICENSE.md</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Update="Activity\ActivityIndicatorSampleView.xaml.cs">
+      <DependentUpon>ActivityIndicatorSampleView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Reactive" Version="4.1.6" />
     <PackageReference Include="ReactiveUI.XamForms" Version="9.20.1" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="1.1.5.188" />
+    <PackageReference Include="ReactiveUI.Fody" Version="9.20.1" />
   </ItemGroup>
 </Project>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DevsTeam.Framework.Core.Activity;
 using DevsTeam.Framework.Core.Async;
 using Xamarin.Forms;
 
@@ -18,7 +19,10 @@ namespace DevsTeam.Framework.Sample
 
         private async Task T()
         {
-            throw new NotSupportedException("s;kla;sldkfj");
+            using (new AppActivity(() => new ActivityIndicatorSampleView()).Show())
+            {
+                await Task.Delay(10000);
+            }
         }
     }
 }
