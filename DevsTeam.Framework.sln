@@ -1,7 +1,15 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsTeam.Framework.Core", "DevsTeam.Framework.Core\DevsTeam.Framework.Core.csproj", "{EB52415E-E20C-4637-BCA7-E74AB3F68C85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{EB97129F-C064-4FD0-AB2F-837B6BE64F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsTeam.Framework.Sample", "DevsTeam.Framework.Sample\DevsTeam.Framework.Sample\DevsTeam.Framework.Sample.csproj", "{CD90CAA9-214C-46C9-804A-77EEDE2FD775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsTeam.Framework.Sample.Android", "DevsTeam.Framework.Sample\DevsTeam.Framework.Sample.Android\DevsTeam.Framework.Sample.Android.csproj", "{EA637743-5B56-456F-82E3-76AE5F49D2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsTeam.Framework.Sample.iOS", "DevsTeam.Framework.Sample\DevsTeam.Framework.Sample.iOS\DevsTeam.Framework.Sample.iOS.csproj", "{BD9153E6-2961-4A97-A1FB-E9B7CC00F074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +21,22 @@ Global
 		{EB52415E-E20C-4637-BCA7-E74AB3F68C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB52415E-E20C-4637-BCA7-E74AB3F68C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB52415E-E20C-4637-BCA7-E74AB3F68C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD90CAA9-214C-46C9-804A-77EEDE2FD775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD90CAA9-214C-46C9-804A-77EEDE2FD775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD90CAA9-214C-46C9-804A-77EEDE2FD775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD90CAA9-214C-46C9-804A-77EEDE2FD775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA637743-5B56-456F-82E3-76AE5F49D2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA637743-5B56-456F-82E3-76AE5F49D2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA637743-5B56-456F-82E3-76AE5F49D2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA637743-5B56-456F-82E3-76AE5F49D2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9153E6-2961-4A97-A1FB-E9B7CC00F074}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{BD9153E6-2961-4A97-A1FB-E9B7CC00F074}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{BD9153E6-2961-4A97-A1FB-E9B7CC00F074}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{BD9153E6-2961-4A97-A1FB-E9B7CC00F074}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD90CAA9-214C-46C9-804A-77EEDE2FD775} = {EB97129F-C064-4FD0-AB2F-837B6BE64F81}
+		{EA637743-5B56-456F-82E3-76AE5F49D2B2} = {EB97129F-C064-4FD0-AB2F-837B6BE64F81}
+		{BD9153E6-2961-4A97-A1FB-E9B7CC00F074} = {EB97129F-C064-4FD0-AB2F-837B6BE64F81}
 	EndGlobalSection
 EndGlobal
