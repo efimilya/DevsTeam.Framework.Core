@@ -19,7 +19,7 @@ namespace DevsTeam.Framework.Core.Activity
         public IDisposable Show()
         {
             _isLoading = true;
-            _indicator = new AppActivityIndicator(){Content = _indicatorViewFactory()};
+            _indicator = new AppActivityIndicator {Content = _indicatorViewFactory()};
             ShowLoading(_indicator);
             return Disposable.Create(HideLoading);
         }
