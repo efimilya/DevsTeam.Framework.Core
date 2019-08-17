@@ -5,7 +5,7 @@ namespace DevsTeam.Framework.Autofac
 {
     public static class FactoryRegistration
     {
-        private static void RegisterFactory<TResult, TParameter>(this ContainerBuilder parentBuilder, Action<ContainerBuilder, TParameter> childRegistration)
+        public static void RegisterFactory<TResult, TParameter>(this ContainerBuilder parentBuilder, Action<ContainerBuilder, TParameter> childRegistration)
             where TParameter : class
         {
             parentBuilder.Register<Factory<TParameter, TResult>>(c =>
